@@ -4,7 +4,7 @@ import plotly.express as px
 import joblib
 
 # load trained model
-model = joblib.load(r"C:\Users\krush\OneDrive\Documents\learning python\healthcare\risk_model.pkl")
+model = joblib.load("risk_model.pkl")
 
 st.title("Healthcare Risk Stratification App")
 
