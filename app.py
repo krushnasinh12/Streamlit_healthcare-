@@ -297,7 +297,7 @@ import os
 import psutil
 
 # Change working directory to the folder where your app is
-os.chdir(r"C:\Users\krush\OneDrive\Documents\learning python\healthcare")
+# os.chdir(r"C:\Users\krush\OneDrive\Documents\learning python\healthcare")
 
 # Function to check if Streamlit is already running
 def is_streamlit_running():
